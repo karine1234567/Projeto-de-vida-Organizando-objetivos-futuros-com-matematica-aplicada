@@ -1,0 +1,27 @@
+
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-destaque: #9c2424;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead,.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+  }
+ a,.btn-link:hover {
+    color: var(--cor-principal)
+}
+
+ a:hover {
+    color: var(--cor-destaque);
+}
